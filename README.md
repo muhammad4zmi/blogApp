@@ -1,5 +1,6 @@
 # Web Blog Portofolioku.web.id
 Website Portofolioku.web.id yang sebelumnya menggunakan CMS wordpress akhirnya kami build ulang menggunakan Framework Codeigniter 4
+Authentication pada website ini menggunakan Library  Myth-auth (https://github.com/lonnieezell/myth-auth)
 
 ## Build with CodeIgniter 4
 

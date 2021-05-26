@@ -1,0 +1,736 @@
+CRITICAL - 2021-05-22 01:57:20 --> Undefined variable: p
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/index.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 138, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 02:14:02 --> Invalid argument supplied for foreach()
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/Applications/M...', 6, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 02:14:32 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 8, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 02:16:37 --> Cannot use object of type mysqli as array
+#0 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#3 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#4 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2021-05-22 02:16:57 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#3 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#4 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2021-05-22 02:17:24 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#3 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#4 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2021-05-22 02:20:55 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include()
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#3 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#4 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#9 {main}
+CRITICAL - 2021-05-22 02:22:01 --> Undefined index: fullname
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 6, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 02:25:32 --> Undefined variable: pr
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 7, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/index', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(39): view('front/index', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->index()
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 08:15:59 --> Undefined index: title
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 46, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya-hari-...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:16:46 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 46, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'post-1.jpg')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:16:46 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 46, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:16:47 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 46, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:17:15 --> Undefined variable: konfigurasi
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 46, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya-hari-...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:17:32 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'post-1.jpg')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:17:32 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:17:32 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:17:48 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'post-1.jpg')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:17:48 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:17:48 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:19:06 --> Undefined index: title
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/blogdetail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 16, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/blogdetai...', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(53): view('front/blogdetai...', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya-hari-...')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 08:20:51 --> Undefined index: title
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/blogdetail.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 17, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/blogdetai...', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(53): view('front/blogdetai...', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya-hari-...')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 08:21:00 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'post-1.jpg')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:21:00 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:21:01 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:21:53 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:21:53 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:22:20 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:22:21 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:22:52 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:22:52 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:23:09 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:23:09 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:23:35 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:23:35 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:23:46 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:23:46 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:24:31 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:24:31 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:25:05 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:25:05 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:25:17 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:25:17 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:26:10 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:26:10 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:27:39 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:27:39 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:29:01 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:29:01 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:29:40 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:29:40 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:29:54 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:29:54 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:30:00 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:30:01 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:30:03 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:30:03 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:31:43 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:31:43 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:31:57 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:31:57 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:32:34 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:32:35 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:32:41 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:32:41 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:32:49 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:32:49 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:33:39 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:33:39 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:34:24 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:34:24 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:34:28 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-2.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:34:28 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 47, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('assets', 'img', 'testimonial-4.j...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-22 08:39:16 --> Illegal string offset 'image'
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/blogdetail.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Applications/M...', 34, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/blogdetai...', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(54): view('front/blogdetai...', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+ERROR - 2021-05-22 08:40:34 --> mysqli_sql_exception: Unknown column 'saya' in 'where clause' in /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT blog.id_...')
+#1 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog.id_...')
+#2 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog.id_...')
+#3 /Applications/MAMP/htdocs/web-blog/app/Models/BlogModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT blog.id_...')
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(49): App\Models\BlogModel->getDetail('blog-saya')
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 08:40:34 --> Unknown column 'saya' in 'where clause'
+#0 /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT blog.id_...')
+#1 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog.id_...')
+#2 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog.id_...')
+#3 /Applications/MAMP/htdocs/web-blog/app/Models/BlogModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT blog.id_...')
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(49): App\Models\BlogModel->getDetail('blog-saya')
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+ERROR - 2021-05-22 08:40:37 --> mysqli_sql_exception: Unknown column 'saya' in 'where clause' in /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT blog.id_...')
+#1 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog.id_...')
+#2 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog.id_...')
+#3 /Applications/MAMP/htdocs/web-blog/app/Models/BlogModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT blog.id_...')
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(49): App\Models\BlogModel->getDetail('blog-saya')
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 08:40:37 --> Unknown column 'saya' in 'where clause'
+#0 /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT blog.id_...')
+#1 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog.id_...')
+#2 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog.id_...')
+#3 /Applications/MAMP/htdocs/web-blog/app/Models/BlogModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT blog.id_...')
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(49): App\Models\BlogModel->getDetail('blog-saya')
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+ERROR - 2021-05-22 08:41:05 --> mysqli_sql_exception: Unknown column 'saya' in 'where clause' in /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT blog.id_...')
+#1 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog.id_...')
+#2 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog.id_...')
+#3 /Applications/MAMP/htdocs/web-blog/app/Models/BlogModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT blog.id_...')
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(49): App\Models\BlogModel->getDetail('blog-saya-hari-...')
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya-hari-...')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 08:41:05 --> Unknown column 'saya' in 'where clause'
+#0 /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT blog.id_...')
+#1 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog.id_...')
+#2 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog.id_...')
+#3 /Applications/MAMP/htdocs/web-blog/app/Models/BlogModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT blog.id_...')
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(49): App\Models\BlogModel->getDetail('blog-saya-hari-...')
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya-hari-...')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+ERROR - 2021-05-22 08:41:13 --> mysqli_sql_exception: Unknown column 'saya' in 'where clause' in /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT blog.id_...')
+#1 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog.id_...')
+#2 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog.id_...')
+#3 /Applications/MAMP/htdocs/web-blog/app/Models/BlogModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT blog.id_...')
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(49): App\Models\BlogModel->getDetail('blog-saya-hari-...')
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya-hari-...')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-22 08:41:13 --> Unknown column 'saya' in 'where clause'
+#0 /Applications/MAMP/htdocs/web-blog/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT blog.id_...')
+#1 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog.id_...')
+#2 /Applications/MAMP/htdocs/web-blog/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog.id_...')
+#3 /Applications/MAMP/htdocs/web-blog/app/Models/BlogModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT blog.id_...')
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(49): App\Models\BlogModel->getDetail('blog-saya-hari-...')
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->readblog('blog-saya-hari-...')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}

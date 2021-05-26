@@ -1,0 +1,161 @@
+CRITICAL - 2021-05-16 00:02:54 --> Undefined index: userid
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('admin', 'profil', 'index', '1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:04:06 --> Undefined index: userid
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:04:39 --> Undefined index: userid
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:04:43 --> Undefined index: userid
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 33, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:06:13 --> Undefined index: userid
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 31, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:06:56 --> Undefined index: id
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 34, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:09:50 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getRowArray() must be of the type int, null given, called in /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php on line 31
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(31): CodeIgniter\Database\BaseResult->getRowArray(NULL)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:10:24 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getRowArray() must be of the type int, null given, called in /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php on line 31
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(31): CodeIgniter\Database\BaseResult->getRowArray(NULL)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:11:10 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getRowArray() must be of the type int, null given, called in /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php on line 31
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(31): CodeIgniter\Database\BaseResult->getRowArray(NULL)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:11:13 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getRowArray() must be of the type int, null given, called in /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php on line 31
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(31): CodeIgniter\Database\BaseResult->getRowArray(NULL)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:13:17 --> Undefined index: blog_name
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 34, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Admin->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:21:07 --> Undefined variable: validation
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Profil.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 53, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Profil->update('1')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-16 00:27:12 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('admin/profil/in...', Array, true)
+#2 /Applications/MAMP/htdocs/web-blog/app/Controllers/Profil.php(27): view('admin/profil/in...', Array)
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Profil->index()
+#4 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#8 {main}
+CRITICAL - 2021-05-16 16:34:04 --> Undefined variable: user
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/admin/profil/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Applications/M...', 75, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('admin/profil/in...', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Profil.php(27): view('admin/profil/in...', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Profil->index()
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-16 16:35:55 --> Undefined index: site_image
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/admin/profil/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 75, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('admin/profil/in...', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Profil.php(27): view('admin/profil/in...', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Profil->index()
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-16 16:36:58 --> Undefined index: site_image
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/admin/profil/index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 75, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('admin/profil/in...', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Profil.php(27): view('admin/profil/in...', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Profil->index()
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-16 16:51:23 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 16:51:28 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 17:35:29 --> Undefined index: blog_name
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/templates/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Applications/M...', 12, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/View/View.php(236): CodeIgniter\View\View->render('templates/index', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('admin/profil/in...', Array, true)
+#5 /Applications/MAMP/htdocs/web-blog/app/Controllers/Profil.php(27): view('admin/profil/in...', Array)
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Profil->index()
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+#8 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#11 {main}

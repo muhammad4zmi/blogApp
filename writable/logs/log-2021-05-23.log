@@ -1,0 +1,92 @@
+CRITICAL - 2021-05-23 02:51:37 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:51:37 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:51:37 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:51:37 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'overlay-bg.jpg')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:52:23 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:52:23 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:52:23 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:52:24 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:54:22 --> Illegal string offset 'image'
+#0 /Applications/MAMP/htdocs/web-blog/app/Views/front/portofolio-detail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/Applications/M...', 36, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/View/View.php(220): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/web-blog/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/MAMP/htdocs/web-blog/system/Common.php(1217): CodeIgniter\View\View->render('front/portofoli...', Array, true)
+#4 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(68): view('front/portofoli...', Array)
+#5 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('website-officia...')
+#6 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#10 {main}
+CRITICAL - 2021-05-23 02:55:37 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
+CRITICAL - 2021-05-23 02:55:37 --> Trying to access array offset on value of type null
+#0 /Applications/MAMP/htdocs/web-blog/app/Controllers/Pages.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/Applications/M...', 63, Array)
+#1 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(936): App\Controllers\Pages->portofoliodetail('assets', 'img', 'portfolio-detai...')
+#2 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 /Applications/MAMP/htdocs/web-blog/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/web-blog/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/web-blog/system/Commands/Server/rewrite.php(45): require_once('/Applications/M...')
+#6 {main}
